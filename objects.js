@@ -17,7 +17,7 @@ function updatePlaylist(obj, string, song){
 }
 
 function removeFromPlaylist(obj,string){
-  delete obj.string
+  delete obj[string]
   
   return obj
 }
