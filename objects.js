@@ -15,3 +15,9 @@ function updatePlaylist(obj, string, song){
   
   return obj
 }
+
+function removeFromPlaylist(obj,string){
+  delete obj.string
+  
+  return obj
+}
